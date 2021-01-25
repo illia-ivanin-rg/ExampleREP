@@ -1,1 +1,12 @@
-{}
+{
+ 	"viewportHeight": 1080,
+ 	"viewportWidth": 1900,
+ 	"integrationFolder": "cypress/integration",
+ 	"watchForFileChanges": false,
+ 	"video": false,
+ 	"env": {
+ 		"useremail": "illia.ivanin@rubygarage.org",
+    "userpassword": "12345678",
+    "workspaceUrl": "CypressTest1"
+ 	}
+}

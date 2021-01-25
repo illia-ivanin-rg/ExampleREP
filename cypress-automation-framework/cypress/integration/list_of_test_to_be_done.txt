@@ -1,0 +1,49 @@
+ Here will be the approved list of test to be implemented in term of Cyppress Education course by Illia Ivanin 
+
+
+ 1. Expert Log in  
+ 2. Expert Log out single 
+ 3. Sign up, creating a new workspace
+ 4. Finish trial 
+ 5. Add a new category
+
+ OR  booking displaying 
+
+
+ Можно сделать так
+
+
+
+
+
+11:39
+В файле cypress.json добавить
+11:39
+"env": {
+		"useremail": "eugene.petrik@rubygarage.org",
+		"userpassword": "CypressTest1",
+	},
+(edited)
+11:39
+Только своего юзера
+11:40
+И вызываеть его в тесте
+Cypress.env('useremail'),
+
+cypress.json
+// {
+// 	"baseUrl": "http://localhost:4200/",
+// 	"ignoreTestFiles": ["**/automationTestStore/*", "**/jsonApi/*", "**/webdriverUni/*"],
+// 	"viewportHeight": 1080,
+// 	"viewportWidth": 1900,
+// 	"integrationFolder": "cypress/integration",
+// 	"watchForFileChanges": false,
+// 	"video": false,
+// 	"env": {
+// 		"useremail": "eugene.petrik@rubygarage.org",
+// 		"userpassword": "CypressTest1",
+// 	}
+// }
+
+  // expertEmail, expertPassword, workspaceUrl
+    // clientEmail, clientPassword
