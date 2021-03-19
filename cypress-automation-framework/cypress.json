@@ -3,10 +3,13 @@
  	"viewportWidth": 1900,
  	"integrationFolder": "cypress/integration",
  	"watchForFileChanges": false,
- 	"video": false,
+	"video": false,
+	"baseUrl": "https://stagingapp.expertbox.io/",
+
  	"env": {
  		"useremail": "illia.ivanin@rubygarage.org",
     "userpassword": "12345678",
-    "workspaceUrl": "CypressTest1"
+		"workspaceUrl": "CypressTest1"
+	
  	}
 }

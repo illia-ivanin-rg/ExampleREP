@@ -16,7 +16,10 @@ require('cypress-xpath')
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import './loginCommands';
+import './stripeCommands';
 
+cy.faker = require('faker');
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 Cypress.Server.defaults({

@@ -61,3 +61,7 @@ Cypress E-BOX
 
 // RAILS_ENV=test rails db:drop db:create db:migrate
 // RAILS_ENV=test rails s
+
+
+
+
